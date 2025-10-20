@@ -3,5 +3,15 @@
   "features": {
     "ghcr.io/roul/devcontainer-features/mise-python:1": {},
     "ghcr.io/devcontainers/features/docker-in-docker:2": {}
+  },
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "GitHub.copilot",
+        "ms-python.python",
+        "KevinRose.vsc-python-indent",
+        "njpwerner.autodocstring"
+      ]
+    }
   }
 }
